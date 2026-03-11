@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-11T12:03:33 IST" name="API Suite" finished-at="2026-03-11T12:03:36 IST" duration-ms="2702">
+    <groups>
+      <group name="post">
+        <method signature="CreatePostTest.postTestCreate()[pri:0, instance:tests.CreatePostTest@307765b4]" name="postTestCreate" class="tests.CreatePostTest"/>
+      </group> <!-- post -->
+      <group name="regression">
+        <method signature="DeletePostTest.deletePostTest()[pri:0, instance:tests.DeletePostTest@7a56812e]" name="deletePostTest" class="tests.DeletePostTest"/>
+        <method signature="UpdatePostTest.updateTestPost()[pri:0, instance:tests.UpdatePostTest@44a2b17b]" name="updateTestPost" class="tests.UpdatePostTest"/>
+      </group> <!-- regression -->
+      <group name="get">
+        <method signature="GetPostTest.getSinglePostTest()[pri:0, instance:tests.GetPostTest@7db534f2]" name="getSinglePostTest" class="tests.GetPostTest"/>
+      </group> <!-- get -->
+      <group name="smoke">
+        <method signature="CreatePostTest.postTestCreate()[pri:0, instance:tests.CreatePostTest@307765b4]" name="postTestCreate" class="tests.CreatePostTest"/>
+        <method signature="GetPostTest.getSinglePostTest()[pri:0, instance:tests.GetPostTest@7db534f2]" name="getSinglePostTest" class="tests.GetPostTest"/>
+      </group> <!-- smoke -->
+      <group name="delete">
+        <method signature="DeletePostTest.deletePostTest()[pri:0, instance:tests.DeletePostTest@7a56812e]" name="deletePostTest" class="tests.DeletePostTest"/>
+      </group> <!-- delete -->
+      <group name="put">
+        <method signature="UpdatePostTest.updateTestPost()[pri:0, instance:tests.UpdatePostTest@44a2b17b]" name="updateTestPost" class="tests.UpdatePostTest"/>
+      </group> <!-- put -->
+    </groups>
+    <test started-at="2026-03-11T12:03:33 IST" name="Smokes Test" finished-at="2026-03-11T12:03:36 IST" duration-ms="2702">
+      <class name="tests.DeletePostTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DeletePostTest@7a56812e]" started-at="2026-03-11T12:03:33 IST" name="setUp" finished-at="2026-03-11T12:03:34 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deletePostTest()[pri:0, instance:tests.DeletePostTest@7a56812e]" started-at="2026-03-11T12:03:34 IST" name="deletePostTest" finished-at="2026-03-11T12:03:36 IST" duration-ms="1781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePostTest -->
+      </class> <!-- tests.DeletePostTest -->
+      <class name="tests.GetPostTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GetPostTest@7db534f2]" started-at="2026-03-11T12:03:33 IST" name="setUp" finished-at="2026-03-11T12:03:34 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getSinglePostTest()[pri:0, instance:tests.GetPostTest@7db534f2]" started-at="2026-03-11T12:03:34 IST" name="getSinglePostTest" finished-at="2026-03-11T12:03:35 IST" duration-ms="1568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSinglePostTest -->
+      </class> <!-- tests.GetPostTest -->
+      <class name="tests.CreatePostTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CreatePostTest@307765b4]" started-at="2026-03-11T12:03:33 IST" name="setUp" finished-at="2026-03-11T12:03:34 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="postTestCreate()[pri:0, instance:tests.CreatePostTest@307765b4]" started-at="2026-03-11T12:03:34 IST" name="postTestCreate" finished-at="2026-03-11T12:03:36 IST" duration-ms="1781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestCreate -->
+      </class> <!-- tests.CreatePostTest -->
+      <class name="tests.UpdatePostTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.UpdatePostTest@44a2b17b]" started-at="2026-03-11T12:03:33 IST" name="setUp" finished-at="2026-03-11T12:03:34 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="updateTestPost()[pri:0, instance:tests.UpdatePostTest@44a2b17b]" started-at="2026-03-11T12:03:34 IST" name="updateTestPost" finished-at="2026-03-11T12:03:36 IST" duration-ms="2237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestPost -->
+      </class> <!-- tests.UpdatePostTest -->
+    </test> <!-- Smokes Test -->
+  </suite> <!-- API Suite -->
+</testng-results>
